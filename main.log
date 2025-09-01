@@ -1,0 +1,15 @@
+entry point:
+00C13BED <main.Op | E9 0A370000         | jmp <main._mainCRTStartup>        |
+00C13BF2          | E9 32510000         | jmp <main.___vcrt_freefls@4>      |
+00C13BF7          | E9 D4210500         | jmp <main.__lseeki64>             |
+00C13BFC          | E9 FB010400         | jmp <main._wcspbrk>               |
+00C13C01          | E9 3F530000         | jmp <main.___vcrt_lock>           |
+00C13C06          | E9 1D200400         | jmp <main.public: int (__stdcall  |
+00C13C0B          | E9 F8190300         | jmp <main.private: bool __thiscal |
+00C13C10          | E9 BF060400         | jmp <main.___acrt_locale_release_ |
+00C13C15          | E9 3B5E0500         | jmp <main.__check_overflow_exit>  |
+00C13C1A          | E9 C1500100         | jmp <main._wcsncmp>               |
+00C13C1F          | E9 73A80300         | jmp <main.public: void * __thisca |
+
+code cave:
+00C73369          | 0000                | add byte ptr ds:[eax],al          |
